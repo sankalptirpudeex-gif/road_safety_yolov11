@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+road_safety_env/
+
+# VS Code
+.vscode/
+
+# Data
+data/raw/
+data/processed/
+
+# Model weights
+models/yolov11/
+models/pretrained/
+results/
+
+# OS
+Thumbs.db

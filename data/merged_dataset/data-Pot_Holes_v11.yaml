@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['object', 'pot hole']
+
+roboflow:
+  workspace: roadquality-jewfb
+  project: pot-holes-okku0-0omrw
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/roadquality-jewfb/pot-holes-okku0-0omrw/1

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['animals', 'humps', 'pedestrian', 'pothole', 'roadworks']
+
+roboflow:
+  workspace: roadquality-jewfb
+  project: road-hazard-detection-hxntc-uiebp
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/roadquality-jewfb/road-hazard-detection-hxntc-uiebp/1
